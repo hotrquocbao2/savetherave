@@ -16,87 +16,87 @@
       </div>
     <div class="space-y-4 grid grid-cols-1 md:grid-cols-3">
       <div class="grid__item lg:col-span-2">
-        <img loading="lazy"src="/images/PICS.jpg" />
+        <img loading="lazy"src="/media/PICS.jpg" />
       </div>
       <div class="grid__item lg:col-span-2">
-        <video preload="none"  loop src="/images/A01.mp4" autoplay></video>
+        <video preload="none"  loop src="/media/A01.mp4" autoplay></video>
       </div>
       <div class="grid__item lg:col-span-2">
-        <img loading="lazy"src="/images/PICS2.jpg" />
+        <img loading="lazy"src="/media/PICS2.jpg" />
       </div>
       <div class="grid__item lg:col-span-2">
-        <video preload="none"  loop src="/images/a02_1.mp4" autoplay></video>
+        <video preload="none"  loop src="/media/a02_1.mp4" autoplay></video>
       </div>
       <div class="grid__item lg:col-span-2">
-        <img loading="lazy"src="/images/PICS3.jpg" />
+        <img loading="lazy"src="/media/PICS3.jpg" />
       </div>
       <div class="grid__item lg:col-span-2">
-        <video preload="none"  loop src="/images/a03.mp4" autoplay></video>
-      </div>
-
-      <div class="grid__item lg:col-span-2">
-        <img loading="lazy"src="/images/PICS4.jpg" />
+        <video preload="none"  loop src="/media/a03.mp4" autoplay></video>
       </div>
 
       <div class="grid__item lg:col-span-2">
-        <video preload="none"  loop src="/images/a04_1.mp4" autoplay></video>
+        <img loading="lazy"src="/media/PICS4.jpg" />
       </div>
 
       <div class="grid__item lg:col-span-2">
-        <img loading="lazy"src="/images/PICS5.jpg" />
-      </div>
-      <div class="grid__item lg:col-span-2">
-        <video preload="none"  loop src="/images/a05_1.mp4" autoplay></video>
+        <video preload="none"  loop src="/media/a04_1.mp4" autoplay></video>
       </div>
 
       <div class="grid__item lg:col-span-2">
-        <img loading="lazy"src="/images/PICS6.jpg" />
+        <img loading="lazy"src="/media/PICS5.jpg" />
       </div>
       <div class="grid__item lg:col-span-2">
-        <video preload="none"  loop src="/images/a06.mp4" autoplay></video>
-      </div>
-
-      <div class="grid__item lg:col-span-2">
-        <img loading="lazy"src="/images/PICS7.jpg" />
-      </div>
-      <div class="grid__item lg:col-span-2">
-        <video preload="none"  loop src="/images/a07.mp4" autoplay></video>
+        <video preload="none"  loop src="/media/a05_1.mp4" autoplay></video>
       </div>
 
       <div class="grid__item lg:col-span-2">
-        <img loading="lazy"src="/images/PICS8.jpg" />
+        <img loading="lazy"src="/media/PICS6.jpg" />
       </div>
       <div class="grid__item lg:col-span-2">
-        <video preload="none"  loop src="/images/a08.mp4" autoplay></video>
-      </div>
-
-      <div class="grid__item lg:col-span-2">
-        <img loading="lazy"src="/images/PICS9.jpg" />
-      </div>
-      <div class="grid__item lg:col-span-2">
-        <video preload="none"  loop src="/images/a09.mp4" autoplay></video>
+        <video preload="none"  loop src="/media/a06.mp4" autoplay></video>
       </div>
 
       <div class="grid__item lg:col-span-2">
-        <img loading="lazy"src="/images/PICS10.jpg" />
+        <img loading="lazy"src="/media/PICS7.jpg" />
       </div>
       <div class="grid__item lg:col-span-2">
-        <video preload="none"  loop src="/images/a010.mp4" autoplay></video>
-      </div>
-
-      <div class="grid__item lg:col-span-2">
-        <img loading="lazy"src="/images/PICS11.jpg" />
-      </div>
-      <div class="grid__item lg:col-span-2">
-        <video preload="none"  loop src="/images/a11.mp4" autoplay></video>
+        <video preload="none"  loop src="/media/a07.mp4" autoplay></video>
       </div>
 
       <div class="grid__item lg:col-span-2">
-        <img loading="lazy"src="/images/PICS12.jpg" />
+        <img loading="lazy"src="/media/PICS8.jpg" />
+      </div>
+      <div class="grid__item lg:col-span-2">
+        <video preload="none"  loop src="/media/a08.mp4" autoplay></video>
       </div>
 
       <div class="grid__item lg:col-span-2">
-        <img loading="lazy"src="/images/PICS13.jpg" />
+        <img loading="lazy"src="/media/PICS9.jpg" />
+      </div>
+      <div class="grid__item lg:col-span-2">
+        <video preload="none"  loop src="/media/a09.mp4" autoplay></video>
+      </div>
+
+      <div class="grid__item lg:col-span-2">
+        <img loading="lazy"src="/media/PICS10.jpg" />
+      </div>
+      <div class="grid__item lg:col-span-2">
+        <video preload="none"  loop src="/media/a010.mp4" autoplay></video>
+      </div>
+
+      <div class="grid__item lg:col-span-2">
+        <img loading="lazy"src="/media/PICS11.jpg" />
+      </div>
+      <div class="grid__item lg:col-span-2">
+        <video preload="none"  loop src="/media/a11.mp4" autoplay></video>
+      </div>
+
+      <div class="grid__item lg:col-span-2">
+        <img loading="lazy"src="/media/PICS12.jpg" />
+      </div>
+
+      <div class="grid__item lg:col-span-2">
+        <img loading="lazy"src="/media/PICS13.jpg" />
       </div>
     </div>
   </div>
