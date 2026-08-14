@@ -52,7 +52,6 @@ onBeforeUnmount(() => {
     width: 100%;
     height: 100%;
     aspect-ratio: 1 / 1;
-    background-color: orange;
 }
 
 .lazy-video video {
