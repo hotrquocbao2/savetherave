@@ -11,7 +11,7 @@ export default defineNuxtConfig({
   },
 
 
-  modules: ['@nuxtjs/tailwindcss', "shadcn-nuxt", "@nuxt/fonts", "@nuxt/icon"],
+  modules: ['@nuxtjs/tailwindcss', "shadcn-nuxt", "@nuxt/fonts", "@nuxt/icon", "@nuxt/image"],
 
   shadcn: {
     prefix: 'Ui',
