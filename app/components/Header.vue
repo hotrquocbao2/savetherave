@@ -65,6 +65,8 @@
         <NuxtImg
             class="object-cover absolute inset-0 -z-10 w-full h-full mix-blend-multiply bg-blend-multiply place-self-center self-center"
             src="/media/header-background.png"
+            alt=""
+            aria-hidden="true"
         />
 
         <div class="grid grid-cols-4 md:grid-cols-6 lg:grid-cols-18 xl:grid-cols-24 lg:col-span-3 order-7">
