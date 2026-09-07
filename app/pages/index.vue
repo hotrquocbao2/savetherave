@@ -1,6 +1,8 @@
 <template>
     <div class="max-w-7xl mx-auto">
-        <div class="space-y-4 grid pretty__grid grid-cols-1 md:grid-cols-3 mb-8">
+        <div
+            class="space-y-4 grid pretty__grid grid-cols-1 md:grid-cols-3 mb-8"
+        >
             <div class="grid__item text-2xl gap-2 flex flex-col lg:col-span-4">
                 <p>Was:</p>
                 <h2 class="font-bold">Tanzdemo</h2>
@@ -33,68 +35,57 @@
             <div class="grid__item lg:col-span-2">
                 <VideoLazy src="/media/a03.mp4" />
             </div>
-
             <div class="grid__item lg:col-span-2">
                 <NuxtPicture loading="lazy" src="/media/PICS4.jpg" />
             </div>
-
             <div class="grid__item lg:col-span-2">
                 <VideoLazy src="/media/a04_1.mp4" />
             </div>
-
             <div class="grid__item lg:col-span-2">
                 <NuxtPicture loading="lazy" src="/media/PICS5.jpg" />
             </div>
             <div class="grid__item lg:col-span-2">
                 <VideoLazy src="/media/a05_1.mp4" />
             </div>
-
             <div class="grid__item lg:col-span-2">
                 <NuxtPicture loading="lazy" src="/media/PICS6.jpg" />
             </div>
             <div class="grid__item lg:col-span-2">
                 <VideoLazy src="/media/a06.mp4" />
             </div>
-
             <div class="grid__item lg:col-span-2">
                 <NuxtPicture loading="lazy" src="/media/PICS7.jpg" />
             </div>
             <div class="grid__item lg:col-span-2">
                 <VideoLazy src="/media/a07.mp4" />
             </div>
-
             <div class="grid__item lg:col-span-2">
                 <NuxtPicture loading="lazy" src="/media/PICS8.jpg" />
             </div>
             <div class="grid__item lg:col-span-2">
                 <VideoLazy src="/media/a08.mp4" />
             </div>
-
             <div class="grid__item lg:col-span-2">
                 <NuxtPicture loading="lazy" src="/media/PICS9.jpg" />
             </div>
             <div class="grid__item lg:col-span-2">
                 <VideoLazy src="/media/a09.mp4" />
             </div>
-
             <div class="grid__item lg:col-span-2">
                 <NuxtPicture loading="lazy" src="/media/PICS10.jpg" />
             </div>
             <div class="grid__item lg:col-span-2">
                 <VideoLazy src="/media/a010.mp4" />
             </div>
-
             <div class="grid__item lg:col-span-2">
                 <NuxtPicture loading="lazy" src="/media/PICS11.jpg" />
             </div>
             <div class="grid__item lg:col-span-2">
                 <VideoLazy src="/media/a11.mp4" />
             </div>
-
             <div class="grid__item lg:col-span-2">
                 <NuxtPicture loading="lazy" src="/media/PICS12.jpg" />
             </div>
-
             <div class="grid__item lg:col-span-2">
                 <NuxtPicture loading="lazy" src="/media/PICS13.jpg" />
             </div>

@@ -8,10 +8,6 @@
       <Icon class="mr-2" :name="icon" />
       <span>{{ title }}</span>
     </NuxtLink>
-    <span class="flex items-center w-full p-2" v-else >
-      <Icon class="mr-2" :name="icon" />
-      <span>{{ title }}</span>
-    </span>
   </div>
 </template>
 

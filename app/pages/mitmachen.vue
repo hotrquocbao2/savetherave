@@ -31,11 +31,3 @@
     ABER NUR, WENN WIR ES GEMEINSAM TRAGEN.</b></p>
   </div>
 </template>
-
-<script lang="ts" setup>
-
-</script>
-
-<style>
-
-</style>

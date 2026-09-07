@@ -1,4 +1,6 @@
 <script lang="ts" setup >
+/** biome-ignore-all lint/style/useVueMultiWordComponentNames: false positive */
+
 import type { PrimitiveProps } from "reka-ui"
 import { Primitive } from "reka-ui"
 import type { HTMLAttributes } from "vue"
