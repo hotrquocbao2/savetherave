@@ -29,7 +29,7 @@
                 </tr>
                 <tr>
                     <td>14:15</td>
-                    <td>14:00</td>
+                    <td>15:00</td>
                     <td>Abschnitt 2 (Durchquerung)</td>
                     <td>Theater Tunnel</td>
                     <td class="text-right">650m</td>
