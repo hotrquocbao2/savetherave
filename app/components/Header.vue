@@ -11,11 +11,11 @@
       </h1>
     </div>
     <HeaderButton 
-      alignment="center" icon="lucide:book-open" order="1" target="/selbstverstaendnis" title="Selbstverständnis" />
-    <HeaderButton alignment="center" icon="lucide:megaphone" order="2" target="/forderungen" title="Forderungen" />
-    <HeaderButton alignment="center" icon="lucide:user-plus" order="3" target="/mitmachen" title="Mitmachen" />
+      alignment="center" icon="lucide:book-open" :order="1" target="/selbstverstaendnis" title="Selbstverständnis" />
+    <HeaderButton alignment="center" icon="lucide:megaphone" :order="2" target="/forderungen" title="Forderungen" />
+    <HeaderButton alignment="center" icon="lucide:user-plus" :order="3" target="/mitmachen" title="Mitmachen" />
     <!-- <HeaderButton order="4" title="Route" target="/route" icon="lucide:map" alignment="center" /> -->
-    <HeaderButton icon="simple-icons:instagram" klass="lg:col-start-2" order="5" 
+    <HeaderButton icon="simple-icons:instagram" klass="lg:col-start-2" :order="5"
       target="https://www.instagram.com/savetherave.ffm" title="@savetherave.ffm"/>
   </header>
 </template>

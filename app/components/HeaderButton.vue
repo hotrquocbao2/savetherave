@@ -22,6 +22,6 @@
     target?: string
     icon: string
     alignment?: string
-    klass?: boolean
+    klass?: string
   }>()
 </script>
