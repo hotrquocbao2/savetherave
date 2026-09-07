@@ -52,7 +52,7 @@
                     <td>16:15</td>
                     <td>17:00</td>
                     <td>Abschnitt 4</td>
-                    <td>Baseler platz -> Platz der dt. Einheit</td>
+                    <td>Baseler Platz -> Platz der dt. Einheit</td>
                     <td class="text-right">1,75km</td>
                 </tr>
                 <tr>
