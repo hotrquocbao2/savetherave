@@ -22,7 +22,7 @@
                 >
             </h1>
         </div>
-        <HeaderButton
+        <PageHeaderButton
             alignment="center"
             icon="lucide:book-open"
             klass="relative z-10"
@@ -30,7 +30,7 @@
             title="Selbstverständnis"
             :order="1"
         />
-        <HeaderButton
+        <PageHeaderButton
             alignment="center"
             icon="lucide:megaphone"
             klass="relative z-10"
@@ -38,7 +38,7 @@
             title="Forderungen"
             :order="2"
         />
-        <HeaderButton
+        <PageHeaderButton
             alignment="center"
             icon="lucide:user-plus"
             klass="relative z-10 lg:row-start-1 lg:col-start-3"
@@ -46,7 +46,7 @@
             title="Mitmachen"
             :order="3"
         />
-        <HeaderButton
+        <PageHeaderButton
             alignment="center"
             icon="lucide:map"
             klass="relative z-10"
@@ -54,7 +54,7 @@
             title="Route"
             :order="4"
         />
-        <HeaderButton
+        <PageHeaderButton
             icon="simple-icons:instagram"
             klass="relative z-10 lg:row-start-3 lg:col-start-3"
             target="https://www.instagram.com/savetherave.ffm"
