@@ -21,7 +21,9 @@
     "includes": ["**", "!!**/.nuxt", "!!**/.github", "!!**/.idea"]
   },
   "formatter": {
+    "attributePosition":"multiline",
     "enabled": true,
+    "expand":"always",
     "indentStyle": "space",
     "lineWidth": 100
   },
@@ -30,6 +32,9 @@
     "formatter": {
       "indentStyle": "space",
       "lineWidth": 100
+    },
+    "linter": {
+      "enabled": true
     }
   },
   "javascript": {
@@ -44,6 +49,9 @@
     }
   },
   "linter": {
+    "domains": {
+      "tailwind": "all"
+    },
     "enabled": true,
     "rules": {
       "nursery": {
