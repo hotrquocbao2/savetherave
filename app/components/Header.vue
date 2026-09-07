@@ -143,9 +143,9 @@ header {
 
 .grid__item {
     display: flex;
-    justify-content: center;
     align-items: center;
-    mix-blend-mode: multiply;
+    justify-content: center;
     padding: 1rem;
+    mix-blend-mode: multiply;
 }
 </style>

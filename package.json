@@ -15,8 +15,8 @@
   },
   "devDependencies": {
     "@biomejs/biome": "2.5.12",
-    "@iconify-json/lucide": "^1.2.129",
-    "@iconify-json/simple-icons": "^1.2.94",
+    "@iconify-json/lucide": "1.2.130",
+    "@iconify-json/simple-icons": "1.2.95",
     "@nuxtjs/tailwindcss": "7.0.0-beta.1",
     "@tailwindcss/forms": "0.5.11",
     "@tailwindcss/typography": "0.5.20",
@@ -31,6 +31,9 @@
   "name": "savetherave",
   "private": true,
   "scripts": {
+    "biomecheck": "biome check ./app",
+    "biomeformat": "biome format --fix",
+    "biomelint": "biome lint --fix --unsafe",
     "build": "nuxt build",
     "dev": "nuxt dev",
     "generate": "nuxt generate",
