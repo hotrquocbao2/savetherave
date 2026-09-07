@@ -83,6 +83,7 @@
             class="w-full min-h-64 h-screen max-h-128"
             src="https://www.google.com/maps/d/embed?mid=1LyJHPXNLB8g2KwfeU8aSkVeKvwgxLJw&ehbc=2E312F"
             title="Save the Rave Route"
+            loading="lazy"
         />
     </div>
 </template>
