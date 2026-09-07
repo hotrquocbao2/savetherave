@@ -1,5 +1,5 @@
 {
-  "$schema": "https://biomejs.dev/schemas/2.5.8/schema.json",
+  "$schema": "https://biomejs.dev/schemas/2.5.12/schema.json",
   "assist": {
     "actions": {
       "source": {
@@ -18,10 +18,17 @@
   },
   "files": {
     "ignoreUnknown": false,
-    "includes": ["**", "!!**/.nuxt", "!!**/.github", "!!**/.idea"]
+    "includes": [
+      "**",
+      "!!**/.nuxt",
+      "!!**/.github",
+      "!!**/.idea"
+    ]
   },
   "formatter": {
+    "attributePosition": "multiline",
     "enabled": true,
+    "expand": "always",
     "indentStyle": "space",
     "lineWidth": 100
   },
@@ -30,6 +37,9 @@
     "formatter": {
       "indentStyle": "space",
       "lineWidth": 100
+    },
+    "linter": {
+      "enabled": true
     }
   },
   "javascript": {
@@ -44,6 +54,9 @@
     }
   },
   "linter": {
+    "domains": {
+      "tailwind": "all"
+    },
     "enabled": true,
     "rules": {
       "nursery": {

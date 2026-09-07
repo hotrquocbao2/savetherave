@@ -4,6 +4,8 @@ interface Props {
     poster?: string;
     loop?: boolean;
     muted?: boolean;
+    klass?: string;
+    innerKlass?: string;
 }
 
 const props = withDefaults(defineProps<Props>(), {
@@ -23,7 +25,7 @@ onMounted(() => {
             for (const entry of entries) {
                 if (entry.isIntersecting) {
                     isVisible.value = true;
-                    videoRef.value?.play().catch(() => { });
+                    videoRef.value?.play().catch(() => {});
                 } else {
                     videoRef.value?.pause();
                 }
@@ -41,9 +43,18 @@ onBeforeUnmount(() => {
 </script>
 
 <template>
-    <div class="lazy-video" ref="containerRef">
-        <video autoplay playsinline preload="none" v-if="isVisible" ref="videoRef" :loop="props.loop"
-            :muted="props.muted" :src="props.src" />
+    <div class="lazy-video" ref="containerRef" :class="props.klass">
+        <video
+            autoplay
+            playsinline
+            preload="none"
+            v-if="isVisible"
+            ref="videoRef"
+            :class="props.innerKlass"
+            :loop="props.loop"
+            :muted="props.muted"
+            :src="props.src"
+        />
     </div>
 </template>
 

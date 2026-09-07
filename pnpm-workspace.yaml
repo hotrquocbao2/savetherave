@@ -4,6 +4,8 @@ allowBuilds:
   vue-demi: true
 minimumReleaseAgeExclude:
   - '@lucide/vue@1.42.0'
+  - '@iconify-json/lucide@1.2.130'
+  - '@iconify-json/simple-icons@1.2.95'
 overrides:
   'glob': '13.0.6'
   'cac': '7.0.0'
