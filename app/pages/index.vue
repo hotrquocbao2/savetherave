@@ -11,7 +11,7 @@
             </div>
             <div class="grid__item text-2xl gap-2 flex flex-col lg:col-span-4">
                 <p>Wo:</p>
-                <h2 class="font-bold">Hautwache (Frankfurt)</h2>
+                <h2 class="font-bold">Hauptwache (Frankfurt)</h2>
             </div>
         </div>
         <div class="space-y-4 grid pretty__grid grid-cols-1 md:grid-cols-3">
