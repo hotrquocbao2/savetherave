@@ -1,6 +1,6 @@
 <template>
     <div class="prose mx-auto">
-        <h1>Route & Zeitplan</h1>
+        <h1 id='headline'>Route & Zeitplan</h1>
         <div class="overflow-auto">
         <table class="min-w-xl">
             <thead>

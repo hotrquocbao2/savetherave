@@ -1,10 +1,10 @@
 <template>
   <div
-    class="route flex border border-indigo-300 bg-indigo-100 text-indigo-700 rounded-lg"
+    class="route flex border border-white bg-white hover:border-indigo-200 hover:bg-indigo-50 text-indigo-950 hover:text-indigo-700"
     :class="[`items-${alignment}`, `lg:order-${order}`, klass]"
   >
     <NuxtLink class="flex w-full items-center hover:text-indigo-900 p-2" v-if="$route.path !== `/${target}`"
-    :class="`items-${alignment}`" :to="target" >
+    :class="`items-${alignment}`" :to="`${target}#headline`" >
       <Icon class="mr-2" :name="icon" />
       <span>{{ title }}</span>
     </NuxtLink>

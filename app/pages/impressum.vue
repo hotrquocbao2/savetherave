@@ -1,6 +1,6 @@
 <template>
   <div class="prose mx-auto">
-    <h1>Impressum</h1>
+    <h1 id='headline'>Impressum</h1>
     <p>
       <strong>Verantwortlich im Sinne des Presserechts:</strong><br />
       <strong>Tokonoma Arts&Culture e.V.</strong><br>

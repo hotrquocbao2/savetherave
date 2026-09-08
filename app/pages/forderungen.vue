@@ -1,6 +1,6 @@
 <template>
   <div class="prose mx-auto">
-    <h1>Forderungen</h1>
+    <h1 id='headline'>Forderungen</h1>
     <ol>
       <li>Clubkultur als Kulturgut anerkennen und dauerhaft fördern. Räume für Clubs und Kulturelles Nachtleben erhalten und Verdrängung schützen.</li>
       <li>Bedingungen schaffen, die den Zugang aller Menschen zu Rave-, Club und Musikkultur ermöglichen.</li>

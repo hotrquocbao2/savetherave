@@ -1,7 +1,7 @@
 <template>
     <div class="max-w-7xl mx-auto fl-px-2/8">
         <div
-            class="space-y-4 grid pretty__grid grid-cols-1 md:grid-cols-3 mb-8"
+            class="space-y-4 grid pretty__grid grid-cols-1 md:grid-cols-3 mb-8 sr-only"
         >
             <div class="grid__item text-2xl gap-2 flex flex-col lg:col-span-4">
                 <p>Was:</p>

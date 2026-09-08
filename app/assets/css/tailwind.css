@@ -8,8 +8,11 @@
 @plugin "fluid-tailwindcss";
 
 @theme {
-  --font-base: "Inter", "sans-serif";
-  --font-head: "Protest Riot", "sans-serif";
+  --default-font-family: "Inter Variable", sans-serif;
+  --font-mono: "JetBrains Mono", "monospace";
+  --texttrim-both: trim-both;
+  --texttrim-start: trim-start;
+  --texttrim-end: trim-end;
 }
 
 body {
@@ -132,4 +135,12 @@ body {
   body {
     @apply bg-background text-foreground;
   }
+}
+
+@utility text-trim-* {
+  text-box-trim: --value(--texttrim-*, "none");
+}
+
+@utility text-edge-* {
+  text-box-edge: --value(--textedge-*, "text", "alphabetic", "ideographic", "cap", "ex", [*]);
 }

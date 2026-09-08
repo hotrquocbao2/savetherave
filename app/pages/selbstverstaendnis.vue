@@ -1,6 +1,6 @@
 <template>
   <div class="prose mx-auto">
-    <h1>Selbstverständnis TagTanzDemo 2026</h1>
+    <h1 id='headline'>Selbstverständnis TagTanzDemo 2026</h1>
     <p>2026 ist es Zeit, die TagTanzDemo wieder auf die Straße zu bringen.</p>
     <p>Viel zu lange war es still. Während kulturelle Freiräume verschwinden, Orte des
     Zusammenkommens im öffentlichen Raum zunehmend unter Druck geraten und bezahlbare

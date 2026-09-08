@@ -24,6 +24,13 @@ export default defineNuxtConfig({
     "~/assets/css/tailwind.css",
   ],
 
+  fonts: {
+    families: [
+      { name: 'Inter Variable', provider: 'bunny' },
+      { name: 'JetBrains Mono', provider: 'bunny' },
+    ],
+  },
+
   modules: [
     "@nuxtjs/tailwindcss",
     "shadcn-nuxt",
