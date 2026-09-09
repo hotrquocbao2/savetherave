@@ -148,3 +148,7 @@ body {
 @utility text-edge-* {
   text-box-edge: --value(--textedge-*, "text", "alphabetic", "ideographic", "cap", "ex", [*]);
 }
+
+#headline {
+    scroll-margin: 25vh;
+}
