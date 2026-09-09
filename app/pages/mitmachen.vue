@@ -1,5 +1,5 @@
 <template>
-  <div class="prose mx-auto">
+  <div class="prose mx-auto fl-px-2/8">
     <h1 id='headline'>Mitmachen</h1>
     <h2>DIE DEMO BRAUCHT EUCH</h2>
     <p>Die Vorbereitung läuft - aber aktuell deutlich zäher, als wir uns wünschen.<br>

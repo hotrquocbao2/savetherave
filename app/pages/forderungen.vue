@@ -1,5 +1,5 @@
 <template>
-  <div class="prose mx-auto">
+  <div class="prose mx-auto fl-px-2/8">
     <h1 id='headline'>Forderungen</h1>
     <ol>
       <li>Clubkultur als Kulturgut anerkennen und dauerhaft fördern. Räume für Clubs und Kulturelles Nachtleben erhalten und Verdrängung schützen.</li>

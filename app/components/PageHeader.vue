@@ -7,40 +7,49 @@
             alignment="center"
             icon="lucide:book-open"
             klass="relative z-10"
-            target="/selbstverstaendnis"
             title="Selbstverständnis"
+            url="/selbstverstaendnis"
             :order="1"
         />
         <PageHeaderButton
             alignment="center"
             icon="lucide:megaphone"
             klass="relative z-10"
-            target="/forderungen"
             title="Forderungen"
+            url="/forderungen"
             :order="2"
         />
         <PageHeaderButton
             alignment="center"
             icon="lucide:user-plus"
             klass="relative z-10 lg:row-start-1 lg:col-start-3"
-            target="/mitmachen"
             title="Mitmachen"
+            url="/mitmachen"
             :order="3"
         />
         <PageHeaderButton
             alignment="center"
             icon="lucide:map"
-            klass="relative z-10"
-            target="/route"
+            klass="relative z-10 lg:row-start-3 lg:col-start-1"
             title="Route"
-            :order="4"
+            url="/route"
+            :order="5"
+        />
+        <PageHeaderButton
+            icon="lucide:heart"
+            klass="relative z-10 lg:row-start-3"
+            title="Support Us"
+            url="https://gofund.me/27425cbf5"
+            :extern="true"
+            :order="6"
         />
         <PageHeaderButton
             icon="simple-icons:instagram"
-            klass="relative z-10 lg:row-start-3 lg:col-start-3"
-            target="https://www.instagram.com/savetherave.ffm"
+            klass="relative z-10 lg:row-start-3"
             title="@savetherave.ffm"
-            :order="5"
+            url="https://www.instagram.com/savetherave.ffm"
+            :extern="true"
+            :order="7"
         />
 
         <NuxtImg
@@ -52,7 +61,7 @@
 
         <div
             aria-hidden="true"
-            class="grid grid-cols-4 md:grid-cols-6 lg:grid-cols-18 lg:col-span-3 order-7"
+            class="grid logos grid-cols-4 md:grid-cols-6 lg:grid-cols-18 lg:col-span-3 order-7"
         >
             <div class="grid__item col-span-2 row-span-2 lg:col-span-4">
                 <NuxtPicture
@@ -218,7 +227,6 @@
 <style scoped>
 header {
     grid-template-rows: auto auto auto;
-
 }
 
 .grid__item {

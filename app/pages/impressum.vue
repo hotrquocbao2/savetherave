@@ -1,5 +1,5 @@
 <template>
-  <div class="prose mx-auto">
+  <div class="prose mx-auto fl-px-2/8">
     <h1 id='headline'>Impressum</h1>
     <p>
       <strong>Verantwortlich im Sinne des Presserechts:</strong><br />

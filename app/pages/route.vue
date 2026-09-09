@@ -1,5 +1,5 @@
 <template>
-    <div class="prose mx-auto">
+    <div class="prose mx-auto fl-px-2/8">
         <h1 id='headline'>Route & Zeitplan</h1>
         <div class="overflow-auto">
         <table class="min-w-xl">
