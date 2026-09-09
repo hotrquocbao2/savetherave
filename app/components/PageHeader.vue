@@ -213,11 +213,18 @@
                     src="/media/logos/toxic_family.png"
                 />
             </div>
-            <div class="grid__item lg:col-span-2 grayscale">
+            <div class="grid__item lg:col-span-2">
                 <NuxtPicture
                     alt=""
                     loading="lazy"
                     src="/media/logos/nachttanzdemo_giessen.png"
+                />
+            </div>
+            <div class="grid__item lg:col-span-2">
+                <NuxtPicture
+                    alt=""
+                    loading="lazy"
+                    src="/media/logos/koz.png"
                 />
             </div>
         </div>
