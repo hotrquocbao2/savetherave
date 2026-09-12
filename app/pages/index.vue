@@ -1,5 +1,17 @@
+<!-- biome-ignore-all lint/a11y/useAnchorContent: iframe -->
 <template>
     <div class="max-w-7xl mx-auto fl-px-2/8">
+        <div class="iframely-embed mb-8">
+            <div
+                class="iframely-responsive"
+                style="padding-bottom: 52.5%; padding-top: 120px"
+            >
+                <a
+                    data-iframely-url="https://iframely.net/EIRLXCCO?theme=light"
+                    href="https://www.gofundme.com/f/gemeinsam-machen-wir-die-tagtanzdemo-2026-moglich/cl/d?attribution_id=sl:48e974c6-64b8-4833-8dc3-f65e2bbfc52a&lang=de_DE&ts=1788937866&utm_campaign=pd_ss_icons&utm_content=amp30-control&utm_medium=customer&utm_source=copy_link"
+                ></a>
+            </div>
+        </div>
         <div
             class="space-y-4 grid pretty__grid grid-cols-1 md:grid-cols-3 mb-8 sr-only"
         >

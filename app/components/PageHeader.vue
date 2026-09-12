@@ -37,7 +37,7 @@
         />
         <PageHeaderButton
             icon="lucide:heart"
-            klass="relative z-10 lg:row-start-3"
+            klass="relative z-10 lg:row-start-3 !border-transparent !bg-indigo-700 text-white hover:!bg-indigo-900 hover:text-white"
             title="Support Us"
             url="https://gofund.me/27425cbf5"
             :extern="true"
