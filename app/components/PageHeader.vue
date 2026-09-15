@@ -61,7 +61,7 @@
 
         <div
             aria-hidden="true"
-            class="grid logos grid-cols-4 md:grid-cols-6 lg:grid-cols-18 lg:col-span-3 order-7"
+            class="grid logos grid-cols-3 sm:grid-cols-4 md:grid-cols-6 lg:grid-cols-16 lg:col-span-3 order-7"
         >
             <div class="grid__item col-span-2 row-span-2 lg:col-span-4">
                 <NuxtPicture
@@ -225,6 +225,27 @@
                     alt=""
                     loading="lazy"
                     src="/media/logos/koz.png"
+                />
+            </div>
+            <div class="grid__item lg:col-span-2">
+                <NuxtPicture
+                    alt=""
+                    loading="lazy"
+                    src="/media/logos/antagon.png"
+                />
+            </div>
+            <div class="grid__item lg:col-span-2">
+                <NuxtPicture
+                    alt=""
+                    loading="lazy"
+                    src="/media/logos/protagon.png"
+                />
+            </div>
+            <div class="grid__item lg:col-span-2">
+                <NuxtPicture
+                    alt=""
+                    loading="lazy"
+                    src="/media/logos/elferclub.png"
                 />
             </div>
         </div>
