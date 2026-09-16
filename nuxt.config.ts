@@ -16,7 +16,7 @@ export default defineNuxtConfig({
           src: "https://s.pageclip.co/v1/pageclip.js",
         },
         {
-          src: "https://iframely.net/embed.js",
+          src: "https://www.gofundme.com/static/js/embed.js",
         },
       ]
     },
