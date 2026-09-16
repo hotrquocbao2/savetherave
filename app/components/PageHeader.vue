@@ -37,7 +37,7 @@
         />
         <PageHeaderButton
             icon="lucide:heart"
-            klass="relative z-10 lg:row-start-3"
+            klass="relative z-10 lg:row-start-3 !border-transparent !bg-indigo-700 text-white hover:!bg-indigo-900 hover:text-white"
             title="Support Us"
             url="https://gofund.me/27425cbf5"
             :extern="true"
@@ -61,7 +61,7 @@
 
         <div
             aria-hidden="true"
-            class="grid logos grid-cols-4 md:grid-cols-6 lg:grid-cols-18 lg:col-span-3 order-7"
+            class="grid logos grid-cols-4 md:grid-cols-8 lg:grid-cols-16 lg:col-span-3 order-7"
         >
             <div class="grid__item col-span-2 row-span-2 lg:col-span-4">
                 <NuxtPicture
@@ -225,6 +225,34 @@
                     alt=""
                     loading="lazy"
                     src="/media/logos/koz.png"
+                />
+            </div>
+            <div class="grid__item lg:col-span-2">
+                <NuxtPicture
+                    alt=""
+                    loading="lazy"
+                    src="/media/logos/antagon.png"
+                />
+            </div>
+            <div class="grid__item lg:col-span-2">
+                <NuxtPicture
+                    alt=""
+                    loading="lazy"
+                    src="/media/logos/protagon.png"
+                />
+            </div>
+            <div class="grid__item lg:col-span-2">
+                <NuxtPicture
+                    alt=""
+                    loading="lazy"
+                    src="/media/logos/elferclub.png"
+                />
+            </div>
+            <div class="grid__item lg:col-span-2">
+                <NuxtPicture
+                    alt=""
+                    loading="lazy"
+                    src="/media/logos/we_are_one.png"
                 />
             </div>
         </div>

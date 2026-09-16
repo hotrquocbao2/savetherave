@@ -15,7 +15,10 @@ export default defineNuxtConfig({
         {
           src: "https://s.pageclip.co/v1/pageclip.js",
         },
-      ],
+        {
+          src: "https://iframely.net/embed.js",
+        },
+      ]
     },
   },
   compatibilityDate: "2025-07-15",
